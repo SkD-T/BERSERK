@@ -46,10 +46,22 @@
 /* Cards de Noticias */
 
 @media screen and (max-width: 768px) {
+   
+   /* Estilos para telas menores, como smartphones */
+   /*secção de artigos*/
     .sec-artigos {
     margin: 20px 3%;
 }
-
+/* Título da seção de artigos */
+.sec-artigos>h2{
+    text-align: center;
+    font-family: var(--Font-title);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    color: var(--Contrast);
+    text-shadow: 1px 1px 4px var(--Accent);
+    margin-bottom: 20px;
+}
+/* Card de artigos */
 .artigo{
     flex: 1 1 200px; /* cresce, mas nunca fica menor que 300px */
     background-color: #0000003d;
@@ -63,19 +75,18 @@
     animation: FadeIn 0.8s ease;
     color: var(--Contrast);
 }
+.artigo:hover {
+    transform: translateY(-5px);
+    background-color: #ffffff25;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/*container dos cards de artigos:  para separar titulo e cards*/
 .container-artigos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   
-}
-.sec-artigos>h2{
-    text-align: center;
-    font-family: var(--Font-title);
-    font-size: clamp(1.5rem, 3vw, 2.5rem);
-    color: var(--Contrast);
-    text-shadow: 1px 1px 4px var(--Accent);
-    margin-bottom: 20px;
 }
 
 
