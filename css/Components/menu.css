@@ -1,8 +1,7 @@
 
-/* =========================
+/*=========================
    MENU / NAVEGAÇÃO
-========================= */
-/* Menu em manutenção, por enquanto só tem o título, mas talvez seja incorporado depois, por isso o código está comentado. 
+========================= */ 
 #menu {
     display: none;
     width: 50%;
@@ -22,4 +21,3 @@
     color: var(--Contrast);
     transition: all 0.3s ease;
 }
-*/

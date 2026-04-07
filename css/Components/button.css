@@ -1,5 +1,6 @@
 .btn{
-    background-color: var(--CTA);     
+    background-color: var(--CTA); 
+    animation: FadeIn 1s ease-in-out;    
     color: white;
     padding: 10px 20px;
     border: none;

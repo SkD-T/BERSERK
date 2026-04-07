@@ -9,7 +9,7 @@
 /* CARD */
 .atraction {
     flex: 1 1 100px; /* cresce, mas nunca fica menor que 300px */
-    
+    animation: FadeIn 0.8s ease;
     background-color: #f0f8ff3d;
     border-radius: 10px;
     padding: 20px;
@@ -60,7 +60,7 @@
     flex-direction: column;
 
     transition: 0.3s ease;
-
+    animation: FadeIn 0.8s ease;
     color: var(--Contrast);
 }
 .container-artigos{
@@ -77,5 +77,6 @@
     text-shadow: 1px 1px 4px var(--Accent);
     margin-bottom: 20px;
 }
+
 
 }

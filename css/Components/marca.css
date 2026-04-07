@@ -4,7 +4,7 @@
     font-size: clamp( 1rem, 2vw, 2rem);
     font-weight: 750;
     letter-spacing: 10px;/* Espaçamento entre letras para um visual mais impactante */
-
+    animation: FadeIn 1s ease-in-out; /* Animação de fade-in para suavizar a aparição da marca */
      /*Colors*/
     color: var(--Contrast);
     /*Layout*/
